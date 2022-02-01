@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jhbco\\source\\github.com\\colombohenrique\\CRUD-Csharp\\WPF_CRUD\\WPF_CRUD\\WPF_CRUD.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jhbco\\source\\github.com\\colombohenrique\\CRUD-Csharp\\WPF_CRUD\\WPF_CRUD\\WPF_CRUD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jhbco\\source\\github.com\\colombohenrique\\CRUD-Csharp\\WPF_CRUD\\WPF_CRUD\\WPF_CRUD.csproj",
+        "projectName": "WPF_CRUD",
+        "projectPath": "C:\\Users\\jhbco\\source\\github.com\\colombohenrique\\CRUD-Csharp\\WPF_CRUD\\WPF_CRUD\\WPF_CRUD.csproj",
+        "packagesPath": "C:\\Users\\jhbco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhbco\\source\\github.com\\colombohenrique\\CRUD-Csharp\\WPF_CRUD\\WPF_CRUD\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jhbco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
