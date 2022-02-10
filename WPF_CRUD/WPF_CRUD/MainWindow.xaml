@@ -7,6 +7,30 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+            <TextBlock Text="MENUS"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="ButtonCRUD" Grid.Column="0" Grid.Row="0" Content="CRUD" Click="ButtonCRUD_Click" Margin="5"/>
+                <Button x:Name="ButtonPayCycle" Grid.Column="1" Grid.Row="0" Content="Pay Cycle" Click="ButtonPayCycle_Click" Margin="5"/>
+                <Button x:Name="ButtonFibonacci" Grid.Column="0" Grid.Row="1" Content="Fibonacci" Click="ButtonFibonacci_Click" Margin="5"/>
+            </Grid>
+        </StackPanel>
     </Grid>
 </Window>
